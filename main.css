@@ -1,0 +1,2041 @@
+* {
+  color: white;
+  text-decoration: none;
+}
+
+.bg-colour {
+  background-color: rgb(0, 0, 0);
+}
+
+.nav-welcome {
+  background-color: gray;
+  margin-top: -7px;
+  margin-left: -18px;
+  width: 1285px;
+  height: 35px
+}
+
+.nav-welcome-h1 {
+  color: white;
+  margin-top: -47px;
+  margin-left: 550px;
+}
+
+.nav-icon1 {
+  background-image: url(Icons/FacebookLogo.png);
+  background-position: left;
+  background-size: cover;
+  margin-top: -49px;
+  margin-left: 1225px;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+}
+
+.nav-icon2 {
+  background-image: url(Icons/InstagramLogo.png);
+  background-position: left;
+  background-size: cover;
+  margin-top: -38px;
+  margin-left: 1150px;
+  cursor: pointer;
+  width: 35px;
+  height: 35px;
+}
+
+.nav-icon3 {
+  background-image: url(Icons/TwitterLogo.png);
+  background-position: left;
+  background-size: cover;
+  margin-top: -38px;
+  margin-left: 1185px;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+}
+
+
+.nav-bar {
+  background-color: black;
+  margin-top: 0px;
+  margin-left: -18px;
+  width: 1285px;
+  height: 40px;
+}
+
+.name {
+  color: white;
+  font-size: 35px;
+  margin-top: -40px;
+  margin-left: 5px;
+  text-decoration: none;
+}
+
+.name-1 {
+  color: white;
+  font-size: 25px;
+  margin-top: -28px;
+  margin-left: 340px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.name-2 {
+  color: white;
+  font-size: 25px;
+  margin-top: -45px;
+  margin-left: 550px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.name-3 {
+  color: white;
+  font-size: 25px;
+  margin-top: -28px;
+  margin-left: 630px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.name-4-drp {
+  color: white;
+  font-size: 25px;
+  float: left;
+  margin-top: -41px;
+  margin-left: 430px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  margin-top: -10px;
+  margin-left: 400px;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.nav-search-container {
+  float: left;
+  margin-left: 900px;
+  margin-top: -28px;
+  cursor: pointer;
+}
+
+.nav-search-icon {
+  display: inline-block;
+  font: normal normal normal 14px/1 fontawesome;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.login-btn {
+  background-color: rgb(0, 0, 0);
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  float: left;
+  margin-top: -28px;
+  margin-left: 1130px;
+  border-radius: 10px;
+  border: none;
+  outline: 0;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+}
+
+.login-btn:hover {
+  color: rgb(238, 236, 236);
+  background-color: rgb(0, 0, 0);
+}
+
+.signin-btn {
+  background-color: rgb(0, 0, 0);
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  float: left;
+  margin-left: 1187px;
+  margin-top: -28px;
+  border-radius: 10px;
+  border: none;
+  outline: 0;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+}
+
+.signin-btn:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+}
+
+.bg-image {
+  background-image: url(Images/bg-image.png);
+
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.logo-frontpage {
+  background-image: url(Logo/LogoWritten.png);
+  background-position: left;
+  background-size: cover;
+  position: relative;
+  margin-top: -570px;
+  margin-left: 400px;
+  z-index: 1;
+  width: 500px;
+  height: 500px;
+}
+
+.buy-now {
+  background-color: rgb(0, 0, 0);
+  font-size: 35px;
+  color: rgb(255, 255, 255);
+  float: left;
+  margin-top: -100px;
+  position: relative;
+  z-index: 1;
+  margin-left: 570px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+}
+
+.buy-now:hover {
+  color: rgb(238, 236, 236);
+  background-color: rgb(0, 0, 0);
+}
+
+.desc {
+  color: white;
+  font-size: 28px;
+  margin-top: -160px;
+  margin-left: 88px;
+}
+
+.myVideo {
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 0;
+}
+
+.background-image {
+  background-image: url(Images/bg.image.png);
+  background-repeat: no-repeat;
+  margin-top: 30px;
+  margin-left: -24px;
+  height: 258px;
+  width: 165px;
+  z-index: 1;
+  position: fixed;
+}
+
+.background-image-1 {
+  background-image: url(Images/bg-image-1.jpeg);
+  background-repeat: no-repeat;
+  margin-left: 1140px;
+  margin-top: 10px;
+  height: 258px;
+  width: 190px;
+  z-index: 1;
+  position: fixed;
+}
+
+.myVideo-1 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 30%;
+}
+
+.desc-2 {
+  color: white;
+  font-size: 30px;
+  margin-top: 300px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  display: inline;
+  margin: 0 15px;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+/*PRIVACY POLICY PAGE*/
+
+.body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: gray;
+  color: gray;
+}
+
+.header {
+  background-color: #333;
+  color: gray;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.main {
+  background-color: gray;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.h1,
+h2,
+h3 {
+  color: #333;
+}
+
+.footer {
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 20px;
+  background-color: #333;
+  color: gray;
+}
+
+/*terms and services page*/
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: gray;
+  color: #333;
+}
+
+header {
+  background-color: #333;
+  color: rgb(255, 255, 255);
+  padding: 10px 0;
+  text-align: center;
+}
+
+main {
+  background-color: gray;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+h1,
+h2,
+h3 {
+  color: #000000;
+}
+
+footer {
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 20px;
+  background-color: #333;
+  color: white;
+}
+
+/*ABOUT PAGE*/
+
+.about-box {
+  width: 300px;
+  height: 250px;
+  background-color: rgb(56, 54, 99);
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 100px;
+  position: relative;
+  box-shadow: 1px 1px 2px 4px #1a1a01;
+  border-radius: 2%;
+  padding: 0%;
+  margin-left: 100px;
+  margin-top: 150px;
+  float: left;
+}
+
+
+.about-avatar {
+  width: 150px;
+  height: 150px;
+  background-color: gray;
+  background-image: url(Images/AboutRehan.jpg);
+  background-position: center;
+  background-size: cover;
+  margin-top: -80px;
+  position: absolute;
+  margin-left: 75px;
+  border-radius: 20%;
+  box-shadow: 1px 1px 2px 4px;
+}
+
+.about-h1 {
+  padding-top: 75px;
+}
+
+.about-button {
+  border: none;
+  padding: 10px 20px 10px 20px;
+  margin-top: -10px;
+  background-color: rgb(197, 16, 16);
+  color: rgb(32, 31, 31);
+}
+
+.button:hover {
+  background-color: white;
+  color: black;
+}
+
+.about-box-2 {
+  width: 300px;
+  height: 250px;
+  background-color: rgb(56, 54, 99);
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 100px;
+  position: relative;
+  box-shadow: 1px 1px 2px 4px #1a1a01;
+  border-radius: 2%;
+  padding: 0%;
+  margin-left: 800px;
+  margin-top: 150px;
+}
+
+
+.about-avatar-2 {
+  width: 150px;
+  height: 150px;
+  background-color: gray;
+  background-image:
+    url();
+  background-position: center;
+  background-size: cover;
+  margin-top: -80px;
+  position: absolute;
+  margin-left: 75px;
+  border-radius: 20%;
+  box-shadow: 1px 1px 2px 4px;
+}
+
+.about-h1-2 {
+  padding-top: 75px;
+}
+
+.about-button-2 {
+  border: none;
+  padding: 10px 20px 10px 20px;
+  margin-top: -10px;
+  background-color: rgb(197, 16, 16);
+  color: rgb(32, 31, 31);
+}
+
+.button:hover {
+  background-color: white;
+  color: black;
+}
+
+/*CONTACT US PAGE*/
+.nav-bar-3 {
+  background-color: black;
+  margin-top: -20px;
+  margin-left: -18px;
+  width: 1300px;
+  height: 40px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  color: #fdfdfd;
+  text-align: center;
+}
+
+h2 {
+  color: #ffffff;
+}
+
+p {
+  color: #ffffff;
+  line-height: 1.6;
+}
+
+a {
+  color: #e5e7e9;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  padding-left: 20px;
+  color: #000000;
+}
+
+/*COLLECTION PAGE*/
+.bg-colour-2 {
+  background-color: gray;
+}
+
+.nav-bar-2 {
+  background-color: black;
+  margin-top: -20px;
+  margin-left: -18px;
+  width: 1300px;
+  height: 40px;
+}
+
+.main-collection-box {
+  width: 250px;
+  height: 200px;
+  background-color: rgb(0, 0, 0);
+  background-image: url(Images/rolex.png);
+  background-size: cover;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  box-shadow: 1px 1px 2px 4px #1a1a01;
+  border-radius: 2%;
+  padding: 0%;
+  margin-left: 100px;
+  margin-top: 70px;
+}
+
+.box-text {
+  padding-top: 75px;
+  text-decoration: none;
+  margin-top: 95px;
+  float: left;
+}
+
+.main-collection-box-2 {
+  width: 250px;
+  height: 200px;
+  background-color: rgb(0, 0, 0);
+  background-image: url(Images/jacob.png);
+  background-size: cover;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  box-shadow: 1px 1px 2px 4px #1a1a01;
+  border-radius: 2%;
+  padding: 0%;
+  margin-left: 500px;
+  margin-top: -200px;
+}
+
+.box-text-2 {
+  padding-top: 75px;
+  text-decoration: none;
+  margin-top: 95px;
+  float: left;
+}
+
+.main-collection-box-3 {
+  width: 250px;
+  height: 200px;
+  background-color: rgb(0, 0, 0);
+  background-image: url(Images/patek.png);
+  background-size: cover;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  box-shadow: 1px 1px 2px 4px #1a1a01;
+  border-radius: 2%;
+  padding: 0%;
+  margin-left: 900px;
+  margin-top: -200px;
+}
+
+.box-text-3 {
+  padding-top: 75px;
+  text-decoration: none;
+  margin-top: 95px;
+  float: left;
+}
+
+.main-collection-box-4 {
+  width: 250px;
+  height: 200px;
+  background-color: rgb(0, 0, 0);
+  background-image: url(Images/hublot.png);
+  background-size: cover;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  box-shadow: 1px 1px 2px 4px #1a1a01;
+  border-radius: 2%;
+  padding: 0%;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+
+.box-text-4 {
+  padding-top: 75px;
+  text-decoration: none;
+  margin-top: 95px;
+  float: left;
+}
+
+.main-collection-box-5 {
+  width: 250px;
+  height: 200px;
+  background-color: rgb(0, 0, 0);
+  background-image: url(Images/cartier.png);
+  background-size: cover;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  box-shadow: 1px 1px 2px 4px #1a1a01;
+  border-radius: 2%;
+  padding: 0%;
+  margin-left: 500px;
+  margin-top: -200px;
+}
+
+.box-text-5 {
+  padding-top: 75px;
+  text-decoration: none;
+  margin-top: 95px;
+  float: left;
+}
+
+.main-collection-box-6 {
+  width: 250px;
+  height: 200px;
+  background-color: rgb(0, 0, 0);
+  background-image: url(Images/casio.png);
+  background-size: cover;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  box-shadow: 1px 1px 2px 4px #1a1a01;
+  border-radius: 2%;
+  padding: 0%;
+  margin-left: 900px;
+  margin-top: -200px;
+}
+
+.box-text-6 {
+  padding-top: 75px;
+  text-decoration: none;
+  margin-top: 95px;
+  float: left;
+}
+
+/*LOGIN PAGE*/
+.bg-colour-5 {
+  background-color: rgb(54, 54, 54);
+}
+
+.login-form {
+  background: gray;
+  width: 500px;
+  height: 350px;
+  margin-left: 380px;
+  margin-top: 100px;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  border-radius: 4px;
+  box-shadow: 0 2px 25px rgba(0, 0, 0, 0.2);
+}
+
+.login-form h1 {
+  padding: 35px 35px 0 35px;
+  font-weight: 300;
+}
+
+.login-form .content {
+  padding: 35px;
+  text-align: center;
+}
+
+.login-form .action {
+  display: flex;
+  flex-direction: row;
+}
+
+.register {
+  color: black;
+  margin-left: 180px;
+  margin-top: -20px;
+  width: 70px;
+  height: 30px;
+}
+
+.register-1 {
+  color: black;
+  margin-left: 20px;
+  margin-top: -20px;
+}
+
+/*SIGN UP PAGE*/
+.login-form {
+  background: rgb(0, 0, 0);
+  width: 500px;
+  height: 350px;
+  margin-left: 450px;
+  margin-top: 100px;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  border-radius: 4px;
+  box-shadow: 0 2px 25px rgba(0, 0, 0, 0.2);
+}
+
+.login-form h1 {
+  padding: 35px 35px 0 35px;
+  font-weight: 300;
+}
+
+.login-form .content {
+  padding: 35px;
+  text-align: center;
+}
+
+.login-form .action {
+  display: flex;
+  flex-direction: row;
+}
+
+.create {
+  color: black;
+  margin-left: 175px;
+  margin-top: -20px;
+  width: 150px;
+  height: 30px;
+}
+
+.alert {
+  padding: 20px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  margin-left: -950px;
+  margin-top: 100px;
+  float: left;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+
+.closebtn:hover {
+  color: black;
+}
+
+/*ROLEXX*/
+.bg-colour-4 {
+  background-color: black;
+}
+
+.nav-pic {
+  background-image: url(Images/rolex-logo.jpeg);
+  margin-left: 500px;
+  height: 180px;
+  width: 260px;
+
+}
+
+.r-sub-h1 {
+  color: gold;
+  font-size: 35px;
+  margin-top: 70px;
+}
+
+.r-sub-p {
+  color: white;
+  font-size: 20px;
+  margin-top: 0px;
+}
+
+.purchase {
+  background-color: rgb(0, 0, 0);
+  font-size: 35px;
+  color: rgb(255, 255, 255);
+  float: left;
+  margin-top: 5px;
+  margin-left: 500px;
+  border-radius: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+}
+
+.purchase:hover {
+  color: rgb(238, 236, 236);
+  background-color: rgb(0, 0, 0);
+}
+
+
+.scroll-container {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 20px;
+}
+
+.scroll-container img {
+  padding: 40px;
+  cursor: pointer;
+}
+
+/*DATE JUST ROLEX*/
+.r-date-h1 {
+  color: gold;
+  font-size: 35px;
+  margin-top: 70px;
+}
+
+.r-date-p {
+  color: white;
+  font-size: 20px;
+  margin-top: 0px;
+}
+
+.scroll-container-2 {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+.scroll-container-2 img {
+  padding: 40px;
+}
+
+.purchase-2 {
+  background-color: rgb(0, 0, 0);
+  font-size: 35px;
+  color: rgb(255, 255, 255);
+  float: left;
+  margin-top: 5px;
+  margin-left: 500px;
+  border-radius: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+}
+
+.purchase-2:hover {
+  color: rgb(238, 236, 236);
+  background-color: rgb(0, 0, 0);
+}
+
+/*ROLEX DAY DATE*/
+.r-day-h1 {
+  color: gold;
+  font-size: 35px;
+  margin-top: 70px;
+}
+
+.r-day-p {
+  color: white;
+  font-size: 20px;
+  margin-top: 0px;
+}
+
+.scroll-container-3 {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+.scroll-container-3 img {
+  padding: 40px;
+}
+
+.purchase-3 {
+  background-color: rgb(0, 0, 0);
+  font-size: 35px;
+  color: rgb(255, 255, 255);
+  float: left;
+  margin-top: 5px;
+  margin-left: 500px;
+  border-radius: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+}
+
+.purchase-3:hover {
+  color: rgb(238, 236, 236);
+  background-color: rgb(0, 0, 0);
+}
+
+/*ROLEX DYTONA*/
+.r-dyto-h1 {
+  color: gold;
+  font-size: 35px;
+  margin-top: 70px;
+}
+
+.r-dyto-p {
+  color: white;
+  font-size: 20px;
+  margin-top: 0px;
+}
+
+.scroll-container-4 {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+.scroll-container-4 img {
+  padding: 40px;
+}
+
+.purchase-4 {
+  background-color: rgb(0, 0, 0);
+  font-size: 35px;
+  color: rgb(255, 255, 255);
+  float: left;
+  margin-top: 5px;
+  margin-left: 500px;
+  border-radius: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+}
+
+.purchase-4:hover {
+  color: rgb(238, 236, 236);
+  background-color: rgb(0, 0, 0);
+}
+
+/*ROLEX OYSTER*/
+.r-oyster-h1 {
+  color: gold;
+  font-size: 35px;
+  margin-top: 70px;
+}
+
+.r-oyster-p {
+  color: white;
+  font-size: 20px;
+  margin-top: 0px;
+}
+
+.scroll-container-5 {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+.scroll-container-5 img {
+  padding: 40px;
+}
+
+.purchase-5 {
+  background-color: rgb(0, 0, 0);
+  font-size: 35px;
+  color: rgb(255, 255, 255);
+  float: left;
+  margin-top: 5px;
+  margin-left: 500px;
+  border-radius: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+}
+
+.purchase-5:hover {
+  color: rgb(238, 236, 236);
+  background-color: rgb(0, 0, 0);
+}
+
+/*Contact*/
+.contact-box {
+  width: 300px;
+  height: 250px;
+  background-color: rgb(56, 54, 99);
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 100px;
+  position: relative;
+  box-shadow: 1px 1px 2px 4px #1a1a01;
+  border-radius: 2%;
+  padding: 0%;
+  margin-left: 100px;
+  margin-top: 150px;
+  float: left;
+}
+
+.contact-h1 {
+  padding-top: 75px;
+}
+
+.contact-button {
+  border: none;
+  padding: 10px 20px 10px 20px;
+  margin-top: -10px;
+  background-color: rgb(197, 16, 16);
+  color: rgb(32, 31, 31);
+}
+
+.button:hover {
+  background-color: white;
+  color: black;
+}
+
+.contact-box-1 {
+  width: 300px;
+  height: 250px;
+  background-color: rgb(56, 54, 99);
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 100px;
+  position: relative;
+  box-shadow: 1px 1px 2px 4px #1a1a01;
+  border-radius: 2%;
+  padding: 0%;
+  margin-left: 100px;
+  margin-top: 150px;
+  float: left;
+}
+
+.contact-h1 {
+  padding-top: 75px;
+}
+
+.contact-button {
+  border: none;
+  padding: 10px 20px 10px 20px;
+  margin-top: -10px;
+  background-color: rgb(197, 16, 16);
+  color: rgb(32, 31, 31);
+}
+
+.button:hover {
+  background-color: white;
+  color: black;
+}
+
+.contact-box-2 {
+  width: 300px;
+  height: 250px;
+  background-color: rgb(56, 54, 99);
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 100px;
+  position: relative;
+  box-shadow: 1px 1px 2px 4px #1a1a01;
+  border-radius: 2%;
+  padding: 0%;
+  margin-left: 100px;
+  margin-top: 150px;
+  float: left;
+}
+
+.contact-h1 {
+  padding-top: 75px;
+}
+
+.contact-button {
+  border: none;
+  padding: 10px 20px 10px 20px;
+  margin-top: -10px;
+  background-color: rgb(197, 16, 16);
+  color: rgb(32, 31, 31);
+}
+
+.button:hover {
+  background-color: white;
+  color: black;
+}
+
+/*JACOB&CO*/
+.jacob-pic{
+  background-image: url(Images/jacobLogo.png);
+  margin-left: 500px;
+  height: 180px;
+  width: 310px;
+ 
+ }
+
+ .card {
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2);
+  float: left;
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  background-color: white;
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+.card-2 {
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.price-2 {
+  background-color: white;
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+}
+
+.card-2 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+.card-3 {
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2);
+  margin-top: -570px;
+  margin-left: 900px;
+  max-width: 300px;
+  position: absolute;
+  float: left;
+  text-align: center;
+  font-family: arial;
+}
+
+.price-3 {
+  background-color: white;
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+}
+
+.card-3 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+.card-4 {
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2);
+  max-width: 300px;
+  margin-top: 100px;
+  text-align: center;
+  font-family: arial;
+}
+
+.price-4 {
+  background-color: white;
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+}
+
+.card-4 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+.card-5 {
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2);
+  max-width: 300px;
+  margin-top: -565px;
+  margin-left: 475px;
+  text-align: center;
+  font-family: arial;
+}
+
+.price-5 {
+  background-color: white;
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+}
+
+.card-5 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+.card-6 {
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2);
+  max-width: 300px;
+  margin-top: -570px;
+  margin-left: 900px;
+  text-align: center;
+  font-family: arial;
+}
+
+.price-6 {
+  background-color: white;
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+}
+
+.card-6 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+.card-7 {
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2);
+  max-width: 300px;
+  margin-top: 100px;
+  text-align: center;
+  font-family: arial;
+}
+
+.price-7 {
+  background-color: white;
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+}
+
+.card-7 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+.card-8 {
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2);
+  max-width: 300px;
+  margin-top: -570px;
+  margin-left: 475px;
+  text-align: center;
+  font-family: arial;
+}
+
+.price-8 {
+  background-color: white;
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+}
+
+.card-8 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+.card-9 {
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2);
+  max-width: 300px;
+ margin-left: 900px;
+ margin-top: -575px;
+  text-align: center;
+  font-family: arial;
+}
+
+.price-9 {
+  background-color: white;
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+}
+
+.card-9 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+.card-10 {
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2);
+  max-width: 300px;
+  margin-top: 100px;
+  margin-left:475px ;
+  text-align: center;
+  font-family: arial;
+}
+
+.price-10 {
+  background-color: white;
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+}
+
+.card-10 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+/*PATEK PHILIPPE*/
+.patek-pic{
+  background-image: url(Images/pateklogo.png);
+  margin-left: 500px;
+  height: 168px;
+  width: 305px;
+ }
+ .card {
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2);
+  float: left;
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  background-color: white;
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+.card-2 {
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.price-2 {
+  background-color: white;
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+}
+
+.card-2 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+.card-3 {
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2);
+  margin-top: -570px;
+  margin-left: 900px;
+  max-width: 300px;
+  position: absolute;
+  float: left;
+  text-align: center;
+  font-family: arial;
+}
+
+.price-3 {
+  background-color: white;
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+}
+
+.card-3 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+.card-4 {
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2);
+  max-width: 300px;
+  margin-top: 100px;
+  text-align: center;
+  font-family: arial;
+}
+
+.price-4 {
+  background-color: white;
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+}
+
+.card-4 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+.card-5 {
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2);
+  max-width: 300px;
+  margin-top: -565px;
+  margin-left: 475px;
+  text-align: center;
+  font-family: arial;
+}
+
+.price-5 {
+  background-color: white;
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+}
+
+.card-5 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+.card-6 {
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2);
+  max-width: 300px;
+  margin-top: -570px;
+  margin-left: 900px;
+  text-align: center;
+  font-family: arial;
+}
+
+.price-6 {
+  background-color: white;
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+}
+
+.card-6 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+.card-7 {
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2);
+  max-width: 300px;
+  margin-top: 100px;
+  text-align: center;
+  font-family: arial;
+}
+
+.price-7 {
+  background-color: white;
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+}
+
+.card-7 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+.card-8 {
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2);
+  max-width: 300px;
+  margin-top: -570px;
+  margin-left: 475px;
+  text-align: center;
+  font-family: arial;
+}
+
+.price-8 {
+  background-color: white;
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+}
+
+.card-8 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+.card-9 {
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2);
+  max-width: 300px;
+ margin-left: 900px;
+ margin-top: -575px;
+  text-align: center;
+  font-family: arial;
+}
+
+.price-9 {
+  background-color: white;
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+}
+
+.card-9 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+.card-10 {
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2);
+  max-width: 300px;
+  margin-top: 100px;
+  margin-left:475px ;
+  text-align: center;
+  font-family: arial;
+}
+
+.price-10 {
+  background-color: white;
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+}
+
+.card-10 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+/*HUBLOT*/
+.hublot-pic{
+  background-image: url(Images/hublotLogo.png);
+  margin-left: 500px;
+  height: 168px;
+  width: 303px;
+ }
+ .card {
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2);
+  float: left;
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  background-color: white;
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+.card-2 {
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.price-2 {
+  background-color: white;
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+}
+
+.card-2 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+.card-3 {
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2);
+  margin-top: -570px;
+  margin-left: 900px;
+  max-width: 300px;
+  position: absolute;
+  float: left;
+  text-align: center;
+  font-family: arial;
+}
+
+.price-3 {
+  background-color: white;
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+}
+
+.card-3 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+.card-4 {
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2);
+  max-width: 300px;
+  margin-top: 100px;
+  text-align: center;
+  font-family: arial;
+}
+
+.price-4 {
+  background-color: white;
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+}
+
+.card-4 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+.card-5 {
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2);
+  max-width: 300px;
+  margin-top: -565px;
+  margin-left: 475px;
+  text-align: center;
+  font-family: arial;
+}
+
+.price-5 {
+  background-color: white;
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+}
+
+.card-5 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+.card-6 {
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2);
+  max-width: 300px;
+  margin-top: -570px;
+  margin-left: 900px;
+  text-align: center;
+  font-family: arial;
+}
+
+.price-6 {
+  background-color: white;
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+}
+
+.card-6 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+.card-7 {
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2);
+  max-width: 300px;
+  margin-top: 100px;
+  text-align: center;
+  font-family: arial;
+}
+
+.price-7 {
+  background-color: white;
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+}
+
+.card-7 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+.card-8 {
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2);
+  max-width: 300px;
+  margin-top: -570px;
+  margin-left: 475px;
+  text-align: center;
+  font-family: arial;
+}
+
+.price-8 {
+  background-color: white;
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+}
+
+.card-8 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+.card-9 {
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2);
+  max-width: 300px;
+ margin-left: 900px;
+ margin-top: -575px;
+  text-align: center;
+  font-family: arial;
+}
+
+.price-9 {
+  background-color: white;
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+}
+
+.card-9 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+.card-10 {
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2);
+  max-width: 300px;
+  margin-top: 100px;
+  margin-left:475px ;
+  text-align: center;
+  font-family: arial;
+}
+
+.price-10 {
+  background-color: white;
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+}
+
+.card-10 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+/*CARTIER*/
+.cartier-pic{
+  background-image: url(Images/cartierlogo.png);
+  margin-left: 500px;
+  height: 180px;
+  width: 303px;
+ 
+ }
+ 
